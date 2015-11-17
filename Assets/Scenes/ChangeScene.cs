@@ -3,7 +3,19 @@ using System.Collections;
 
 public class ChangeScene : MonoBehaviour {
 
-	public void LoadScene() {
-        Application.LoadLevel(Application.loadedLevel + 1);
+	public int level;
+	
+	public void levelManager () {
+		Application.LoadLevel (level); 	
+		
 	}
+	
+	void Update() 
+	{
+		if (Input.GetKey (KeyCode.Escape)) {
+			Application.Quit();
+			
+		} 
+		
+	} 
 }
