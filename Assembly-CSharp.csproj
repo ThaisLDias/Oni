@@ -46,10 +46,12 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\MusicStop.cs" />
      <Compile Include="Assets\Resources\Scripts\0.2.8.07\Car.cs" />
      <Compile Include="Assets\Resources\Scripts\0.2.8.07\CarMove.cs" />
      <Compile Include="Assets\Resources\Scripts\0.2.8.07\MapData.cs" />
      <Compile Include="Assets\Resources\Scripts\0.2.8.07\MoveCamera.cs" />
+     <Compile Include="Assets\Resources\Scripts\0.2.8.07\Music.cs" />
      <Compile Include="Assets\Resources\Scripts\0.2.8.07\RedoneSettings.cs" />
      <Compile Include="Assets\Resources\Scripts\0.2.8.07\SaveMapMPS.cs" />
      <Compile Include="Assets\Resources\Scripts\0.2.8.07\TileSettings.cs" />
